@@ -1,0 +1,243 @@
+/* The white Turkey with 17,803 characters is a famous turkey */
+
+#theWhiteTurkeyWith17083CharactersLong {
+  width: 586px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* navigation bar */
+
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+#navBar li {
+  float: left;
+}
+
+#navBar li a {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navBar li a:hover {
+	background-image: url(vscodeLogo.png);
+}
+
+#navBar .active {
+	background-image: url(vscodeLogo.png);
+}
+
+/* bootstrap modify */
+
+.jumbotron {
+	background-image: linear-gradient(to bottom, #000000, #868686, #ffffff);
+}
+
+footer {
+	background-image: linear-gradient(to top, #000000, #868686, #ffffff);
+}
+
+#footer {
+	font-size: 20px;
+}
+
+.jumbotron, .padding, footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.jumbotron .container h1 {
+	color: #ffffff;
+}
+
+/* basic elements */
+
+h1 {
+  font-size: 86px;
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+	font-size: 55px;
+	font-family: 'Fredoka One', cursive;
+}
+
+p {
+  font-size: 33px;
+  font-family: 'Pangolin', cursive;
+}
+
+.normalImg {
+  width: 586px;
+}
+
+a {
+  color: #ffffff;
+}
+
+ul {
+  font-size: 33px;
+  font-family: 'Pangolin', cursive; 
+}
+
+.center {
+	text-align: center;
+}
+
+.READ_NOW {
+	color: #ff0000;
+}
+
+img {
+	filter: drop-shadow(8px 8px 10px #0000ff);
+	border-style: solid;
+	border-radius: 3%;
+}
+
+/* fun facts */
+
+td {
+	width: 300px;
+	height: 300px;
+}
+
+.ff {
+	color: #000000;
+	font-size: 27px;
+	width: 220px;
+	height: 220px;	
+	text-align: center;
+	filter: drop-shadow(8px 8px 10px #0000ff);
+}
+
+.bcw {
+	background-color: #ffffff;
+}
+
+.funFacts {
+	background-color: #ffffff;
+}
+
+#box1 {
+	background-color: #f6c2d9;
+}
+
+#box2 {
+	background-color: #fff69b;
+}
+
+#box3 {
+	background-color: #bcdfc9;
+}
+
+#box4 {
+	background-color: #a1c8e9
+}
+
+#box5 {
+	background-color: #e4dae2;
+}
+
+#box1:hover {
+	background-image: url(hoverFFs/filesLogo.png);
+}
+
+#box2:hover {
+	background-image: url(hoverFFs/grammarlyLogo.png);
+}
+
+#box3:hover {
+	background-image: url(hoverFFs/snippingToolLogo.png);
+}
+
+#box4:hover {
+	background-image: url(hoverFFs/ti84Logo.png);
+}
+
+#box5:hover {
+	background-image: url(hoverFFs/tinspireLogo.png);
+}
+
+/* some hovering over stuff */
+
+#outlet:hover {
+	filter: invert(333%) drop-shadow(8px 8px 10px #0000ff);
+	border-style: solid;
+}
+
+/* visibllle text */
+
+#visibllle {
+	opacity: 0%;
+}
+
+#visibllle:hover {
+	opacity: 86%;
+}
+
+/* bird grid */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#ffStickyNote,li{
+  list-style:none;
+}
+#ffStickyNote{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ffStickyNote li .ffBox{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-9deg);
+  transition: transform .15s linear;
+}
+
+#ffStickyNote li:nth-child(even) .ffBox{
+  transform:rotate(7deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+#ffStickyNote li:nth-child(3n) .ffBox{
+  transform:rotate( -4deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+#ffStickyNote li:nth-child(5n) .ffBox{
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+#ffStickyNote li .ffBox:hover,#ffStickyNote li .ffBox:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+#ffStickyNote li{
+  margin:1em;
+}
